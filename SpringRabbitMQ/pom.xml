@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.javacase.sagar</groupId>
-	<artifactId>SpringRabbitMQ</artifactId>
+	<artifactId>spring-rabbitmq</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>SpringRabbitMQ</name>
 	<description>Spring Rabbit MQ Project</description>
