@@ -25,9 +25,8 @@ public class Author {
 	public Author() {
 	}
 
-	public Author(long id, String firstName, String lastName) {
+	public Author(String firstName, String lastName) {
 		super();
-		this.id = id;
 		this.firstName = firstName;
 		this.lastName = lastName;
 	}
@@ -60,8 +59,8 @@ public class Author {
 		return books;
 	}
 
-	public void setBooks(Set<Book> books) {
-		this.books = books;
+	public void addBook(Book book) {
+		this.books.add(book);
 	}
 
 	@Override
