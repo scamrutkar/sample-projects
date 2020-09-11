@@ -35,9 +35,6 @@
                         <goals>
                             <goal>install-node-and-npm</goal>
                         </goals>
-                        <configuration>
-                            <skip>true</skip>
-                        </configuration>
                     </execution>
 
                     <execution>
@@ -45,9 +42,6 @@
                         <goals>
                             <goal>npm</goal>
                         </goals>
-                        <configuration>
-                            <skip>true</skip>
-                        </configuration>
                     </execution>
 
                     <execution>

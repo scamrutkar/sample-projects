@@ -4,6 +4,9 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 frontend/src/main/angular/node_modules
+frontend/src/main/angular/node/
+frontend/src/target
+backend/src/target
 
 ### STS ###
 .apt_generated
