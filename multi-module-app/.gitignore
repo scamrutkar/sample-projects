@@ -3,8 +3,8 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-frontend/src/main/angular/node_modules
-frontend/src/main/angular/node/
+frontend/src/main/sample-app/node_modules
+frontend/src/main/sample-app/node/
 frontend/src/target
 backend/src/target
 
