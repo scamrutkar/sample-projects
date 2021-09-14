@@ -1,11 +1,37 @@
-<router-outlet></router-outlet>
+<mat-sidenav-container fullscreen>
 
-<section>
-  <div class="example-button-row">  
-    <button mat-raised-button color="primary" routerLink="/login" >Login</button>
-    <button mat-raised-button color="primary" routerLink="/user" >User</button>
-  </div>
-</section>
+  <mat-sidenav-content fxLayout="column">
 
+    <mat-toolbar style="background:#5adfa1">
+      <p fxFlex>Sample Application</p>
+      <button mat-button>Login</button>
+      <button mat-button>Register</button>
+    </mat-toolbar>
 
+    <mat-card-content>
+      <br>
+      <div class="login-container">
+        <form class="example-form">
+          <mat-form-field class="example-full-width">
+            <mat-label>Favorite food</mat-label>
+            <input matInput placeholder="Ex. Pizza" value="Sushi">
+          </mat-form-field>
+        
+          <mat-form-field class="example-full-width">
+            <mat-label>Leave a comment</mat-label>
+            <textarea matInput placeholder="Ex. It makes me feel..."></textarea>
+          </mat-form-field>
+        </form>
+        <br>
+        <button mat-raised-button color="primary">Login</button>     
+        <button mat-raised-button color="primary">Reset</button>
+      </div>
+    </mat-card-content>
 
+    <footer fxFlexOffset="auto" style="background:#5adfa1">
+      <p>Footer content</p>
+    </footer>
+
+  </mat-sidenav-content>
+
+</mat-sidenav-container>
